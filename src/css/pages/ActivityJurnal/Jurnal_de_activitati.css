@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway'); 
+
+.activity-page{
+    height:auto;
+    width:100%;
+}
+
+.containerbackground { 
+    text-align: left;
+    position: absolute;
+    width: 80vw;
+    top: 11.5vw;
+    font-family: 'Raleway';
+    font-weight: 700;
+    line-height: 15vw;
+    font-size: 13vw;
+    background: linear-gradient(91.32deg, rgba(41, 197, 187, 0.3) 17.82%, rgba(197, 255, 251, 0.258) 74.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    } 
+
+
+.journal_image1{
+    position: absolute;
+    width: 30vw;
+    height: 13vw;
+    left: 60vw;
+    top: 12.3vw;
+    border-radius: 2vw;
+}
+
+.journal_image2{
+    position: absolute;
+    width: 30vw;
+    height: 13vw;
+    left: 52vw;
+    top: 26vw;
+    border-radius: 2vw;
+}
+.title{
+    position:absolute;
+    left: 4vw;
+    top: 20vw;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    color: #000000;
+}
+
+
+.containerarticle{
+    display: grid;
+    grid-template-columns: auto auto ;
+    top: 50vw;
+    /* gap: 1vw; */
+    padding: 1vw;
+  }
+
+.images{
+position:relative;
+width: 28vw;
+height: 15vw;
+left: 63vw;
+top: 45vw;
+padding:1vw;
+}
+.article_image{
+    position:relative;
+    width:28vw;
+    height:15vw;
+    padding:1vw;
+}
+.journal_text{
+position: absolute;
+width: 53vw;
+left: 6vw;
+text-align: left;
+top: 47vw;
+font-family: 'Raleway';
+font-style:normal;
+font-weight: 700;
+font-size: 1.07vw;
+line-height: 1.4vw;
+color: #000000;
+grid-row:1/5;
+}
+
+
+@media(max-width:1200px){
+    .containerarticle{
+        display:inherit;
+        }
+        .journal_text{
+            text-align: left;
+            width: 90%;
+            font-size: 2vw;
+            line-height: 2.2vw;
+            left: 6vw;
+        }
+       .images{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 0.5vw;
+        padding: 0.5vw;
+            top:130vw;
+            left:1vw;
+            width: 100%;
+       }
+       .article_image{
+        width:90%;
+        height:100%;
+       }
+}
